@@ -31,10 +31,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 -  Fixes [#3816](https://github.com/microsoft/BotFramework-WebChat/issues/3816). De-bumped Node.js engine requirement for Direct Line Speech SDK to `>= 10.14.2` from `>= 12.0.0`, by [@compulim](https://github.com/compulim) in PR [#3854](https://github.com/microsoft/BotFramework-WebChat/pull/3854)
 -  Fixes [#3842](https://github.com/microsoft/BotFramework-WebChat/issues/3842). Updated [`husky`](https://npmjs.com/package/husky), [`lint-staged`](https://npmjs.com/package/lint-staged) and corresponding `precommit` scripts, by [@compulim](https://github.com/compulim), in PR [#3871](https://github.com/microsoft/BotFramework-WebChat/pull/3871)
 -  Improved test reliability and added snapshots to console of test harness in development mode, by [@compulim](https://github.com/compulim), in PR [#3891](https://github.com/microsoft/BotFramework-WebChat/pull/3891)
+-  Fixes [#3360](https://github.com/microsoft/BotFramework-WebChat/issues/3360) and [#3615](https://github.com/microsoft/BotFramework-WebChat/issues/3615). Use `channelData['webchat:fallback-text']` field for screen reader text, before stripping Markdown from [`activity.text` field](https://github.com/microsoft/botframework-sdk/blob/main/specs/botframework-activity/botframework-activity.md#text), by [@compulim](https://github.com/compulim), in PR [#3917](https://github.com/microsoft/BotFramework-WebChat/pull/3917)
 
 ### Changed
 
--  Bumped all dependencies to the latest versions and sample bumps, by [@compulim](https://github.com/compulim) in PR [#3831](https://github.com/microsoft/BotFramework-WebChat/pull/3831) and PR [#3846](https://github.com/microsoft/BotFramework-WebChat/pull/3846)
+-  Bumped all dependencies to the latest versions and sample bumps, by [@compulim](https://github.com/compulim) in PR [#3831](https://github.com/microsoft/BotFramework-WebChat/pull/3831), PR [#3846](https://github.com/microsoft/BotFramework-WebChat/pull/3846), and PR [#3917](https://github.com/microsoft/BotFramework-WebChat/pull/3917)
    -  Development dependencies
       -  [`@azure/storage-blob@12.5.0`](https://npmjs.com/package/@azure/storage-blob)
       -  [`@babel/cli@7.13.14`](https://npmjs.com/package/@babel/cli)
@@ -109,8 +110,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
       -  [`adaptivecards@2.9.0`](https://npmjs.com/package/adaptivecards)
       -  [`classnames@2.3.1`](https://npmjs.com/package/classnames)
       -  [`core-js@3.10.0`](https://npmjs.com/package/core-js)
+      -  [`react-dictate-button@2.0.1`](https://npmjs.com/package/react-dictate-button)
       -  [`react-redux@7.2.3`](https://npmjs.com/package/react-redux)
       -  [`redux-devtools-extension@2.13.9`](https://npmjs.com/package/redux-devtools-extension)
+      -  [`sanitize-html@2.4.0`](https://npmjs.com/package/sanitize-html)
       -  [`url-search-params-polyfill@8.1.1`](https://npmjs.com/package/url-search-params-polyfill)
       -  [`whatwg-fetch@3.6.2`](https://npmjs.com/package/whatwg-fetch)
 -  Resolves [#3693](https://github.com/microsoft/BotFramework-WebChat/issues/3693). Bumped to [`microsoft-cognitiveservices-speech-sdk@1.17.0`](https://npmjs.com/package/microsoft-cognitiveservices-speech-sdk), by [@compulim](https://github.com/compulim), in PR [#3907](https://github.com/microsoft/BotFramework-WebChat/pull/3907)
