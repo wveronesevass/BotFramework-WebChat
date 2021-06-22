@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 
 -  Resolved [#3557](https://github.com/microsoft/BotFramework-WebChat/issues/3557) and [#3736](https://github.com/microsoft/BotFramework-WebChat/issues/3736). Improved test harness and added browser pooling, by [@compulim](https://github.com/compulim), in PR [#3871](https://github.com/microsoft/BotFramework-WebChat/pull/3871)
+-  Resolves [#3752](https://github.com/microsoft/BotFramework-WebChat/issues/3752). Added typings (`*.d.ts`) for all public interfaces, by [@compulim](https://github.com), in PR [#3931](https://github.com/microsoft/BotFramework-WebChat/pull/3931)
 
 ### Fixed
 
@@ -32,6 +33,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 -  Fixes [#3842](https://github.com/microsoft/BotFramework-WebChat/issues/3842). Updated [`husky`](https://npmjs.com/package/husky), [`lint-staged`](https://npmjs.com/package/lint-staged) and corresponding `precommit` scripts, by [@compulim](https://github.com/compulim), in PR [#3871](https://github.com/microsoft/BotFramework-WebChat/pull/3871)
 -  Improved test reliability and added snapshots to console of test harness in development mode, by [@compulim](https://github.com/compulim), in PR [#3891](https://github.com/microsoft/BotFramework-WebChat/pull/3891)
 -  Fixes [#3360](https://github.com/microsoft/BotFramework-WebChat/issues/3360) and [#3615](https://github.com/microsoft/BotFramework-WebChat/issues/3615). Use `channelData['webchat:fallback-text']` field for screen reader text, before stripping Markdown from [`activity.text` field](https://github.com/microsoft/botframework-sdk/blob/main/specs/botframework-activity/botframework-activity.md#text), by [@compulim](https://github.com/compulim), in PR [#3917](https://github.com/microsoft/BotFramework-WebChat/pull/3917)
+-  Fixes [#3856](https://github.com/microsoft/BotFramework-WebChat/issues/3856). Fix missing typings, by [@compulim](https://github.com/compulim) and [@corinagum](https://github.com/corinagum), in PR [#3931](https://github.com/microsoft/BotFramework-WebChat/pull/3931)
 
 ### Changed
 
