@@ -22,6 +22,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [4.13.1] - 2021-06-23
+
 ### Added
 
 -  Resolved [#3557](https://github.com/microsoft/BotFramework-WebChat/issues/3557) and [#3736](https://github.com/microsoft/BotFramework-WebChat/issues/3736). Improved test harness and added browser pooling, by [@compulim](https://github.com/compulim), in PR [#3871](https://github.com/microsoft/BotFramework-WebChat/pull/3871)
@@ -40,16 +42,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 -  Bumped all dependencies to the latest versions and sample bumps, by [@compulim](https://github.com/compulim) in PR [#3831](https://github.com/microsoft/BotFramework-WebChat/pull/3831), PR [#3846](https://github.com/microsoft/BotFramework-WebChat/pull/3846), and PR [#3917](https://github.com/microsoft/BotFramework-WebChat/pull/3917)
    -  Development dependencies
       -  [`@azure/storage-blob@12.5.0`](https://npmjs.com/package/@azure/storage-blob)
-      -  [`@babel/cli@7.13.14`](https://npmjs.com/package/@babel/cli)
-      -  [`@babel/core@7.13.14`](https://npmjs.com/package/@babel/core)
+      -  [`@babel/cli@7.14.5`](https://npmjs.com/package/@babel/cli)
+      -  [`@babel/core@7.14.6`](https://npmjs.com/package/@babel/core)
       -  [`@babel/plugin-proposal-async-generator-functions@7.13.8`](https://npmjs.com/package/@babel/plugin-proposal-async-generator-functions)
-      -  [`@babel/plugin-proposal-class-properties@7.13.0`](https://npmjs.com/package/@babel/plugin-proposal-class-properties)
-      -  [`@babel/plugin-proposal-object-rest-spread@7.13.8`](https://npmjs.com/package/@babel/plugin-proposal-object-rest-spread)
-      -  [`@babel/plugin-transform-runtime@7.13.10`](https://npmjs.com/package/@babel/plugin-transform-runtime)
-      -  [`@babel/preset-env@7.13.12`](https://npmjs.com/package/@babel/preset-env)
-      -  [`@babel/preset-react@7.13.13`](https://npmjs.com/package/@babel/preset-react)
-      -  [`@babel/preset-typescript@7.13.0`](https://npmjs.com/package/@babel/preset-typescript)
-      -  [`@babel/runtime@7.13.10`](https://npmjs.com/package/@babel/runtime)
+      -  [`@babel/plugin-proposal-class-properties@7.14.5`](https://npmjs.com/package/@babel/plugin-proposal-class-properties)
+      -  [`@babel/plugin-proposal-object-rest-spread@7.14.7`](https://npmjs.com/package/@babel/plugin-proposal-object-rest-spread)
+      -  [`@babel/plugin-transform-runtime@7.14.5`](https://npmjs.com/package/@babel/plugin-transform-runtime)
+      -  [`@babel/preset-env@7.14.7`](https://npmjs.com/package/@babel/preset-env)
+      -  [`@babel/preset-react@7.14.5`](https://npmjs.com/package/@babel/preset-react)
+      -  [`@babel/preset-typescript@7.14.5`](https://npmjs.com/package/@babel/preset-typescript)
+      -  [`@babel/runtime@7.14.6`](https://npmjs.com/package/@babel/runtime)
       -  [`@babel/standalone@7.13.14`](https://npmjs.com/package/@babel/standalone)
       -  [`@fluentui/react@8.9.0`](https://npmjs.com/package/@fluentui/react)
       -  [`@types/node@14.14.37`](https://npmjs.com/package/@types/node)
