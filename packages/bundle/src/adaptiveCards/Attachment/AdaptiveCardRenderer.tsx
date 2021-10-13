@@ -674,7 +674,7 @@ const AdaptiveCardRenderer: VFC<AdaptiveCardRendererProps> = ({
     // Clear errors on next render
     setErrors([]);
 
-    restoreInputValues(element, inputValuesRef.current);
+    //restoreInputValues(element, inputValuesRef.current);
 
     current.appendChild(element);
     adaptiveCardElementRef.current = element;
